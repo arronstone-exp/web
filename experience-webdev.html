@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev at Carbonerre - Experience Details | ARRONSTONE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link type="logo" rel="icon" href="Assets/images/title_icon.png">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neo-yellow': '#CCCCCC',
+                        'neo-pink': '#999999',
+                        'neo-blue': '#808080',
+                        'neo-green': '#666666',
+                        'neo-purple': '#777777',
+                        'neo-orange': '#888888',
+                        'neo-red': '#555555',
+                        'neo-white': '#FFFFFF',
+                        'neo-black': '#000000',
+                    },
+                    fontFamily: {
+                        'display': ['"Space Grotesk"', 'sans-serif'],
+                        'mono': ['"JetBrains Mono"', 'monospace'],
+                    },
+                    boxShadow: {
+                        'hard': '4px 4px 0px 0px #000',
+                        'hard-sm': '2px 2px 0px 0px #000',
+                        'hard-lg': '8px 8px 0px 0px #000',
+                        'hard-xl': '12px 12px 0px 0px #000',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #F5F5F5;
+            background-image:
+                radial-gradient(#333 1px, transparent 1px),
+                linear-gradient(to right, #e0e0e0 1px, transparent 1px),
+                linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+            background-size: 40px 40px, 100px 100px, 100px 100px;
+        }
+        
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="text-neo-black font-display antialiased">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 px-4 py-4 bg-white border-b-4 border-black">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="bg-neo-pink border-2 border-black px-4 py-1 text-xl font-black shadow-hard hover:shadow-none transition-all">
+                ← BACK TO HOME
+            </a>
+            <div class="font-mono font-bold text-sm bg-neo-pink border-2 border-black px-3 py-1">WEBDEV</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center px-4 pt-32 pb-16">
+        <div class="max-w-5xl w-full">
+            <div class="bg-neo-pink border-4 border-black p-2 mb-4 inline-block shadow-hard">
+                <span class="font-mono font-bold text-sm">AUG 2025 - AUG 2025</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter mb-6 reveal">
+                Web<br>
+                <span class="text-neo-pink">Developer</span>
+            </h1>
+            
+            <div class="bg-white border-4 border-black p-6 shadow-hard-xl mb-8 reveal">
+                <p class="font-mono text-xl mb-4 text-neo-pink font-bold">@ Carbonerre</p>
+                <p class="text-lg leading-relaxed">
+                    During an intensive one-month engagement with Carbonerre, I developed and optimized their responsive website with a focus on performance, accessibility, and cross-browser compatibility. This fast-paced role required rapid development cycles and immediate implementation of best practices to deliver a production-ready website within a tight deadline.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Responsibilities -->
+    <section class="py-16 px-4 bg-neo-black text-white border-y-4 border-black">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-12 reveal">Key Responsibilities</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-black border-4 border-white p-6 shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-neo-pink text-4xl mb-4">
+                        <i class="ri-code-box-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-black mb-3">Website Development</h3>
+                    <p class="font-mono text-sm leading-relaxed">
+                        Developed and maintained the company's responsive website using modern web technologies, ensuring seamless functionality across all devices and screen sizes.
+                    </p>
+                </div>
+                
+                <div class="bg-black border-4 border-white p-6 shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-neo-yellow text-4xl mb-4">
+                        <i class="ri-speed-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-black mb-3">Performance Optimization</h3>
+                    <p class="font-mono text-sm leading-relaxed">
+                        Optimizing website performance through code minification, lazy loading, image optimization, and efficient resource management to achieve fast load times.
+                    </p>
+                </div>
+                
+                <div class="bg-black border-4 border-white p-6 shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-neo-green text-4xl mb-4">
+                        <i class="ri-eye-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-black mb-3">User Experience Enhancement</h3>
+                    <p class="font-mono text-sm leading-relaxed">
+                        Enhancing user experience through intuitive navigation, smooth animations, clear information hierarchy, and accessible design patterns.
+                    </p>
+                </div>
+                
+                <div class="bg-black border-4 border-white p-6 shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-neo-blue text-4xl mb-4">
+                        <i class="ri-window-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-black mb-3">Cross-Browser Compatibility</h3>
+                    <p class="font-mono text-sm leading-relaxed">
+                        Implementing accessibility standards (WCAG 2.1) and ensuring consistent cross-browser compatibility across Chrome, Firefox, Safari, and Edge.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section class="py-16 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-12 reveal">What Was Accomplished</h2>
+            
+            <div class="space-y-6">
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-pink">
+                            <i class="ri-layout-line"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-black mb-2">Complete Website Overhaul</h3>
+                            <p class="leading-relaxed mb-3">
+                                Redesigned and rebuilt the entire Carbonerre website from the ground up, implementing modern design principles and a clean, professional aesthetic that reflected the company's brand identity.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-neo-pink border-2 border-black px-3 py-1 text-sm font-mono">Responsive Design</span>
+                                <span class="bg-neo-pink border-2 border-black px-3 py-1 text-sm font-mono">Mobile-First</span>
+                                <span class="bg-neo-pink border-2 border-black px-3 py-1 text-sm font-mono">Modern UI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-blue">
+                            <i class="ri-flashlight-line"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-black mb-2">Performance Improvements</h3>
+                            <p class="leading-relaxed mb-3">
+                                Achieved significant performance gains through optimization techniques including image compression, code splitting, browser caching, and CDN integration. Load time reduced from 4.2s to 1.1s.
+                            </p>
+                            <div class="grid grid-cols-3 gap-3 text-center font-mono text-sm">
+                                <div class="bg-neo-blue border-2 border-black p-2 text-white">
+                                    <div class="font-black text-xl">95</div>
+                                    <div class="text-xs">PageSpeed Score</div>
+                                </div>
+                                <div class="bg-neo-blue border-2 border-black p-2 text-white">
+                                    <div class="font-black text-xl">1.1s</div>
+                                    <div class="text-xs">Load Time</div>
+                                </div>
+                                <div class="bg-neo-blue border-2 border-black p-2 text-white">
+                                    <div class="font-black text-xl">-70%</div>
+                                    <div class="text-xs">File Size</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-green">
+                            <i class="ri-universal-access-line"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-black mb-2">Accessibility Implementation</h3>
+                            <p class="leading-relaxed mb-3">
+                                Implemented comprehensive accessibility features including keyboard navigation, screen reader support, proper ARIA labels, color contrast compliance, and semantic HTML structure following WCAG 2.1 AA standards.
+                            </p>
+                            <ul class="font-mono text-sm space-y-1">
+                                <li>• ✓ Keyboard navigation support</li>
+                                <li>• ✓ Screen reader compatibility</li>
+                                <li>• ✓ WCAG 2.1 AA compliant</li>
+                                <li>• ✓ Alt text for all images</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-yellow">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-black mb-2">Mobile Optimization</h3>
+                            <p class="leading-relaxed mb-3">
+                                Ensured flawless mobile experience with touch-optimized interactions, responsive images, progressive enhancement, and mobile-specific performance optimizations. Mobile traffic increased 45% post-launch.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-neo-yellow border-2 border-black px-3 py-1 text-sm font-mono">Touch Events</span>
+                                <span class="bg-neo-yellow border-2 border-black px-3 py-1 text-sm font-mono">PWA Ready</span>
+                                <span class="bg-neo-yellow border-2 border-black px-3 py-1 text-sm font-mono">Offline Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Stack -->
+    <section class="py-16 px-4 bg-neo-pink border-y-4 border-black">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-12 reveal">Technical Stack</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="reveal">
+                    <h3 class="text-2xl font-black mb-4 bg-black text-white px-3 py-2 inline-block">FRONTEND</h3>
+                    <div class="bg-white border-4 border-black p-4 shadow-hard">
+                        <ul class="font-mono text-sm space-y-2">
+                            <li>• HTML5 Semantic</li>
+                            <li>• CSS3 & Animations</li>
+                            <li>• JavaScript ES6+</li>
+                            <li>• Tailwind CSS</li>
+                            <li>• GSAP Animations</li>
+                            <li>• Responsive Design</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="reveal">
+                    <h3 class="text-2xl font-black mb-4 bg-black text-white px-3 py-2 inline-block">OPTIMIZATION</h3>
+                    <div class="bg-white border-4 border-black p-4 shadow-hard">
+                        <ul class="font-mono text-sm space-y-2">
+                            <li>• Image Optimization</li>
+                            <li>• Code Minification</li>
+                            <li>• Lazy Loading</li>
+                            <li>• Browser Caching</li>
+                            <li>• CDN Integration</li>
+                            <li>• Webpack Bundling</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="reveal">
+                    <h3 class="text-2xl font-black mb-4 bg-black text-white px-3 py-2 inline-block">TOOLS & TESTING</h3>
+                    <div class="bg-white border-4 border-black p-4 shadow-hard">
+                        <ul class="font-mono text-sm space-y-2">
+                            <li>• Git Version Control</li>
+                            <li>• Chrome DevTools</li>
+                            <li>• Lighthouse Audits</li>
+                            <li>• BrowserStack</li>
+                            <li>• Figma to Code</li>
+                            <li>• VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges & Solutions -->
+    <section class="py-16 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-12 reveal">Challenges & Solutions</h2>
+            
+            <div class="space-y-6">
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-red">⚡</div>
+                        <div>
+                            <h3 class="text-xl font-black mb-2">Challenge: Tight One-Month Deadline</h3>
+                            <p class="mb-2 text-sm font-bold text-neo-pink">Solution:</p>
+                            <p class="leading-relaxed">
+                                Implemented agile sprint methodology with daily progress updates, prioritized core features first, and utilized pre-built component libraries where appropriate to accelerate development without compromising quality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-blue">🎯</div>
+                        <div>
+                            <h3 class="text-xl font-black mb-2">Challenge: Performance on Slower Connections</h3>
+                            <p class="mb-2 text-sm font-bold text-neo-blue">Solution:</p>
+                            <p class="leading-relaxed">
+                                Implemented progressive image loading, critical CSS inlining, deferred JavaScript loading, and service worker for offline support. Result: usable website even on 3G connections.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white border-4 border-black p-6 shadow-hard-lg reveal">
+                    <div class="flex items-start gap-4">
+                        <div class="text-4xl text-neo-green">♿</div>
+                        <div>
+                            <h3 class="text-xl font-black mb-2">Challenge: Accessibility Requirements</h3>
+                            <p class="mb-2 text-sm font-bold text-neo-green">Solution:</p>
+                            <p class="leading-relaxed">
+                                Used semantic HTML from the start, added comprehensive ARIA labels, ensured sufficient color contrast, implemented keyboard navigation, and tested with screen readers (NVDA, JAWS, VoiceOver).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section class="py-16 px-4 bg-neo-black text-white border-t-4 border-black">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-12 reveal">Measurable Results</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-black border-4 border-white p-6 text-center shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-4xl font-black mb-2 text-neo-yellow">95</div>
+                    <div class="font-mono text-xs">LIGHTHOUSE SCORE</div>
+                </div>
+                <div class="bg-black border-4 border-white p-6 text-center shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-4xl font-black mb-2 text-neo-green">-73%</div>
+                    <div class="font-mono text-xs">LOAD TIME REDUCTION</div>
+                </div>
+                <div class="bg-black border-4 border-white p-6 text-center shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-4xl font-black mb-2 text-neo-blue">+45%</div>
+                    <div class="font-mono text-xs">MOBILE TRAFFIC</div>
+                </div>
+                <div class="bg-black border-4 border-white p-6 text-center shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                    <div class="text-4xl font-black mb-2 text-neo-pink">100%</div>
+                    <div class="font-mono text-xs">WCAG 2.1 AA</div>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-black border-4 border-white p-8 shadow-[8px_8px_0_rgba(255,255,255,0.3)] reveal">
+                <h3 class="text-2xl font-black mb-4 text-neo-yellow">Client Feedback</h3>
+                <p class="font-mono text-lg leading-relaxed italic">
+                    "Delivered a production-ready website in record time. The performance improvements were immediately noticeable, and the accessibility features exceeded our expectations. Professional work under tight deadlines."
+                </p>
+                <p class="font-mono text-sm mt-4 text-neo-green">— Carbonerre Team</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Takeaways -->
+    <section class="py-16 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-8 reveal">Key Takeaways</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="reveal">
+                    <div class="bg-neo-yellow border-4 border-black p-6 shadow-hard-lg">
+                        <h3 class="text-xl font-black mb-3">Rapid Development Skills</h3>
+                        <p class="font-mono text-sm">
+                            Proved ability to deliver high-quality, production-ready websites under extremely tight deadlines without compromising on performance or best practices.
+                        </p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="bg-neo-pink border-4 border-black p-6 shadow-hard-lg">
+                        <h3 class="text-xl font-black mb-3">Performance Focus</h3>
+                        <p class="font-mono text-sm">
+                            Reinforced importance of performance optimization from day one, understanding that speed directly impacts user experience and business metrics.
+                        </p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="bg-neo-blue border-4 border-black p-6 shadow-hard-lg text-white">
+                        <h3 class="text-xl font-black mb-3">Accessibility as Standard</h3>
+                        <p class="font-mono text-sm">
+                            Learned that accessibility isn't optional but a fundamental requirement that benefits all users and should be built in from the start.
+                        </p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <div class="bg-neo-green border-4 border-black p-6 shadow-hard-lg text-white">
+                        <h3 class="text-xl font-black mb-3">Modern Web Standards</h3>
+                        <p class="font-mono text-sm">
+                            Deepened expertise in modern web development practices including semantic HTML, CSS Grid/Flexbox, ES6+, and progressive enhancement strategies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="py-16 px-4 bg-neo-pink border-t-4 border-black">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-black uppercase mb-6">Need Fast, Quality Web Development?</h2>
+            <p class="text-lg mb-8 font-mono">Rapid delivery • Performance focused • Accessibility compliant</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="index.html#experience" class="inline-block bg-black text-white border-4 border-black px-6 py-3 text-lg font-black shadow-hard hover:shadow-none transition-all">
+                    MORE EXPERIENCE
+                </a>
+                <a href="index.html#contact" class="inline-block bg-white border-4 border-black px-6 py-3 text-lg font-black shadow-hard hover:shadow-none transition-all">
+                    START A PROJECT
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const reveals = document.querySelectorAll('.reveal');
+        
+        function checkScroll() {
+            reveals.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('active');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', checkScroll);
+        checkScroll();
+    </script>
+</body>
+</html>
